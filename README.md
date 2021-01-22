@@ -6,7 +6,7 @@ UniGal-ExceptionProposal，简称UEP，是UniGal的警告和错误汇总形成�
 
 UEP将错误分为两个等级，Warning（警告）和Error（错误）。
 
-编号系统中对应的分别为```UEP-W-0000```和```UEP-E-0000```
+编号系统中对应的格式分别为```UEP-W-XXXX```和```UEP-E-XXXX```，其中```XXXX```为数字
 
 ## 处理方式
 
