@@ -1,12 +1,16 @@
-# UniGal-ExceptionProposal
+# UniGal-EnforcementProposal
 
-UniGal-ExceptionProposal，简称UEP，是UniGal的警告和错误汇总形成文档的提案。
+UniGal-EnforcementProposal，简称UEP，是UniGal的警告和错误汇总形成文档的提案。
 
 由于不同的引擎之间或多或少存在一定的不能完美导出的问题，作为一个标准，应当给出成熟的异常反馈系统。UEP就是为此设计的。
 
-UEP将错误分为两个等级，Warning（警告）和Error（错误）。
+UniGal标准（Script与Diagram）可能会有多套分别由官方或第三方维护的编译器、渲染器。但均应遵循本错误提案，即本提案中的错误并非您的工具链实现一定会遇到。
 
-编号系统中对应的格式分别为```UEWXXXX```和```UEEXXXX```，其中```XXXX```为数字
+UEP将错误分为两个等级，Warning（警告）和Error（错误）。编号系统中对应的格式分别为```UEWXXXX```和```UEEXXXX```，其中```XXXX```为数字。
+
+由于大部分UniGal工具链均采用C++/C#系技术栈的原因，UEP的命名风格将参考MSVS生态主导的[MSDN风格](https://docs.microsoft.com/zh-cn/cpp/build/reference/c-cpp-building-reference?view=msvc-140)而不是以Pypi生态主导的[PEP风格](https://www.python.org/dev/peps/)作为命名原则。
+
+但是为方便Python使用者，如果您在您的引擎中使用Python实现相关操作，您可以使用```UEP-W-XXXX```和```UEP-E-XXXX```命名，但序号应与本处保持一致。
 
 ## 处理方式
 
