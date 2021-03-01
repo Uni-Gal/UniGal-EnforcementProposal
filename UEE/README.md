@@ -12,11 +12,11 @@
 | UEE0005 | 使用了目标语言不支持的UniGal函数 | [UEE0005](UEE0005.md) |
 | UEE0006 | 出现了未定义的源引擎或目标引擎 | [UEE0006](UEE0006.md) |
 
-### UEE1001-UEE1002
+### UEE6001-UEE6002
 | 编号 Number | 说明 Description                  | 文档链接 Docs |
 | ----------- | --------------------------------- | ------------- |
-| UEE1001 | 未能找到样式表/No StyleSheet found | [UEE0101](UEE1001.md) |
-| UEE1002 | 找到了过多的样式表/Too many StyleSheets found | [UEE0102](UEE1002.md) |
+| UEE6001 | 未能找到样式表/No StyleSheet found | [UEE0101](UEE1001.md) |
+| UEE6002 | 找到了过多的样式表/Too many StyleSheets found | [UEE0102](UEE1002.md) |
 | …… | …… | …… |
 
 ### UEE9001 编译器内部错误
