@@ -15,8 +15,8 @@
 ### UEE6001-UEE6002
 | 编号 Number | 说明 Description                  | 文档链接 Docs |
 | ----------- | --------------------------------- | ------------- |
-| UEE6001 | 未能找到样式表/No StyleSheet found | [UEE0101](UEE1001.md) |
-| UEE6002 | 找到了过多的样式表/Too many StyleSheets found | [UEE0102](UEE1002.md) |
+| UEE6001 | 未能找到样式表/No StyleSheet found | [UEE0101](UEE6001.md) |
+| UEE6002 | 找到了过多的样式表/Too many StyleSheets found | [UEE0102](UEE6002.md) |
 | …… | …… | …… |
 
 ### UEE9001 编译器内部错误
